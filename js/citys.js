@@ -1,0 +1,2 @@
+"use strict";var getCity=function(){return localStorage.getItem("city")},setCity=function(t){localStorage.setItem("city",t)},city=document.querySelector(".vote-citys");null===getCity()?(city.textContent="Казань",setCity("Казань")):city.textContent=getCity();var citys=document.querySelector(".citys-container");citys.addEventListener("click",function(t){return chooseCity(t)});var chooseCity=function(t){"P"===t.target.tagName&&(city.textContent=t.target.textContent,setCity(city.textContent),modal3.style.display="none")};
+//# sourceMappingURL=citys.js.map

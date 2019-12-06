@@ -1,0 +1,2 @@
+"use strict";function scrollFunction(){166<document.body.scrollTop||166<document.documentElement.scrollTop?document.querySelector(".nav-scroll").style.top="0":document.querySelector(".nav-scroll").style.top="-166px"}function mobileButton(){var o=document.querySelector(".mobile-container");"block"===o.style.display?o.style.display="none":o.style.display="block"}window.onscroll=function(){scrollFunction()};
+//# sourceMappingURL=nav.js.map
